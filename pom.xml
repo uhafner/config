@@ -49,7 +49,7 @@
 
     <!-- Maven Plug-ins Configuration -->
     <compiler.maven.plugin>3.0</compiler.maven.plugin>
-    <jdt.plexus.compiler.version>2.1</jdt.plexus.compiler.version>
+    <jdt.plexus.compiler.version>2.2</jdt.plexus.compiler.version>
     <resources.maven.plugin>2.6</resources.maven.plugin>
     <surefire.maven.plugin>2.14</surefire.maven.plugin>
     <cobertura.maven.plugin>2.5.2</cobertura.maven.plugin>
