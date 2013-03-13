@@ -179,7 +179,7 @@
             <threshold>Low</threshold>
             <effort>Max</effort>
             <relaxed>false</relaxed>
-            <fork>false</fork>
+            <fork>true</fork>
             <excludeFilterFile>etc/findbugs-exclusion-filter.xml</excludeFilterFile>
           </configuration>
         </plugin>
