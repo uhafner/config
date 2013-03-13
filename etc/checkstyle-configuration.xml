@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Checkstyle-Configuration: Ulli
-    Description: Ulli's Checkstyle Rules.
+    Checkstyle-Configuration: Ullrich Hafner
+    Description: Ullrich Hafner's Checkstyle Rules.
 -->
 <!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN" "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 <module name="Checker">
     <property name="severity" value="warning"/>
     <module name="TreeWalker">
+        <module name="OneStatementPerLine"/>
+        <module name="OuterTypeFilename"/>
+        <module name="NestedForDepth">
+          <property name="max" value="2"/>
+        </module>
+        <module name="InnerTypeLast"/>
+
         <module name="AnnotationUseStyle"/>
         <module name="MissingDeprecated"/>
         <module name="PackageAnnotation"/>
@@ -128,49 +135,43 @@
         <module name="UpperEll"/>
         <module name="IllegalCatch"/>
         <module name="IllegalImport">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Nur die JSR305 Annotations aus javax.lang benutzen"/>
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="illegalPkgs" value="net.jcip.annotations"/>
         </module>
         <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Nur die JSR305 Annotations aus javax.lang benutzen"/>
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="format" value="edu.umd.cs.findbugs.annotations.CheckForNull"/>
-            <property name="message" value="Bitte nur die JSR305 Annotations aus javax.annotation benutzen"/>
+            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="illegalPattern" value="true"/>
         </module>
         <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Nur die JSR305 Annotations aus javax.lang benutzen"/>
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="format" value="edu.umd.cs.findbugs.annotations.CheckReturnValue"/>
-            <property name="message" value="Bitte nur die JSR305 Annotations aus javax.annotation benutzen"/>
+            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="illegalPattern" value="true"/>
         </module>
         <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Nur die JSR305 Annotations aus javax.lang benutzen"/>
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="format" value="edu.umd.cs.findbugs.annotations.NonNull"/>
-            <property name="message" value="Bitte nur die JSR305 Annotations aus javax.annotation benutzen"/>
+            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="illegalPattern" value="true"/>
         </module>
         <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Nur die JSR305 Annotations aus javax.lang benutzen"/>
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="format" value="edu.umd.cs.findbugs.annotations.Nullable"/>
-            <property name="message" value="Bitte nur die JSR305 Annotations aus javax.annotation benutzen"/>
+            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="illegalPattern" value="true"/>
         </module>
         <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Nur die JSR305 Annotations aus javax.lang benutzen"/>
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="format" value="edu.umd.cs.findbugs.annotations.PossiblyNull"/>
-            <property name="message" value="Bitte nur die JSR305 Annotations aus javax.annotation benutzen"/>
+            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="illegalPattern" value="true"/>
         </module>
         <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Nur die JSR305 Annotations aus javax.lang benutzen"/>
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="format" value="edu.umd.cs.findbugs.annotations.UnknowNullness"/>
-            <property name="message" value="Bitte nur die JSR305 Annotations aus javax.annotation benutzen"/>
-            <property name="illegalPattern" value="true"/>
-        </module>
-        <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Nur die JSR305 Annotations @CheckForNull und @Nonnull benutzen"/>
-            <property name="format" value="javax.annotation.Nullable"/>
-            <property name="message" value="Bitte nur die JSR305 Annotations aus javax.annotation benutzen"/>
+            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
             <property name="illegalPattern" value="true"/>
         </module>
     </module>
