@@ -51,6 +51,7 @@
     <compiler.maven.plugin>3.0</compiler.maven.plugin>
     <jdt.plexus.compiler.version>2.1</jdt.plexus.compiler.version>
     <resources.maven.plugin>2.6</resources.maven.plugin>
+    <surefire.maven.plugin>2.14</surefire.maven.plugin>
     <cobertura.maven.plugin>2.5.2</cobertura.maven.plugin>
     <checkstyle.maven.plugin>2.9.1</checkstyle.maven.plugin>
     <pmd.maven.plugin>2.7.1</pmd.maven.plugin>
@@ -102,6 +103,8 @@
           <compilerId>eclipse</compilerId>
           <source>${java.version}</source>
           <target>${java.version}</target>
+          <testSource>${java.version}</testSource>
+          <testTarget>${java.version}</testTarget>
           <compilerArguments>
             <properties>.settings/org.eclipse.jdt.core.prefs</properties>
             <enableJavadoc />
@@ -119,6 +122,11 @@
 
     <pluginManagement>
       <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${surefire.maven.plugin}</version>
+        </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
