@@ -135,44 +135,10 @@
         <module name="UpperEll"/>
         <module name="IllegalCatch"/>
         <module name="IllegalImport">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
+            <property name="illegalPkgs" value="junit"/>
+        </module>
+        <module name="IllegalImport">
             <property name="illegalPkgs" value="net.jcip.annotations"/>
-        </module>
-        <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="format" value="edu.umd.cs.findbugs.annotations.CheckForNull"/>
-            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="illegalPattern" value="true"/>
-        </module>
-        <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="format" value="edu.umd.cs.findbugs.annotations.CheckReturnValue"/>
-            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="illegalPattern" value="true"/>
-        </module>
-        <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="format" value="edu.umd.cs.findbugs.annotations.NonNull"/>
-            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="illegalPattern" value="true"/>
-        </module>
-        <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="format" value="edu.umd.cs.findbugs.annotations.Nullable"/>
-            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="illegalPattern" value="true"/>
-        </module>
-        <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="format" value="edu.umd.cs.findbugs.annotations.PossiblyNull"/>
-            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="illegalPattern" value="true"/>
-        </module>
-        <module name="Regexp">
-            <metadata name="com.atlassw.tools.eclipse.checkstyle.customMessage" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="format" value="edu.umd.cs.findbugs.annotations.UnknowNullness"/>
-            <property name="message" value="Replace with JSR305 annotations from javax.annotation"/>
-            <property name="illegalPattern" value="true"/>
         </module>
     </module>
     <module name="FileTabCharacter">

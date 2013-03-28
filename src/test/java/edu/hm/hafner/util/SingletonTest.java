@@ -4,9 +4,9 @@ import static org.junit.Assert.*;
 
 import java.util.HashSet;
 
-import org.junit.Test;
-
 import com.google.common.collect.Sets;
+
+import org.junit.Test;
 
 /**
  * Tests the class {@link Singleton}.

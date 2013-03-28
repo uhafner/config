@@ -5,9 +5,9 @@ import java.util.List;
 
 import javax.annotation.CheckForNull;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.google.common.collect.Lists;
+
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * Provides several helper methods to validate method arguments and class

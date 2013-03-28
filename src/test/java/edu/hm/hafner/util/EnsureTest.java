@@ -2,9 +2,9 @@ package edu.hm.hafner.util;
 
 import static org.junit.Assert.*;
 
-import org.junit.Test;
-
 import com.google.common.collect.Lists;
+
+import org.junit.Test;
 
 /**
  * Tests the class {@link Ensure}.
