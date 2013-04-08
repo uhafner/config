@@ -13,11 +13,8 @@ import org.junit.Test;
  */
 @SuppressWarnings("nls")
 public class EnsureTest {
-    /** Not Empty string in tests. */
     private static final String NOT_EMPTY_STRING = "-";
-    /** Message to be used in tests. */
     private static final String EMPTY_STRING = "";
-    /** Message to be used in tests. */
     private static final String ERROR_MESSAGE = "Expected Error.";
 
     /**

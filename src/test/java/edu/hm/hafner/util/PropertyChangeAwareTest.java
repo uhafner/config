@@ -13,24 +13,15 @@ import org.junit.Test;
  *
  * @author Ullrich Hafner
  */
-@SuppressWarnings("nls")
 public class PropertyChangeAwareTest {
-    /** New event property. */
     private static final String STRING_NEW_VALUE = "New";
-    /** Old event property. */
     private static final String STRING_OLD_VALUE = "Old";
-    /** New event property. */
     private static final int INTEGER_NEW_VALUE = 1;
-    /** Old event property. */
     private static final int INTEGER_OLD_VALUE = 0;
-    /** New event property. */
     private static final boolean BOOLEAN_NEW_VALUE = false;
-    /** Old event property. */
     private static final boolean BOOLEAN_OLD_VALUE = true;
-    /** Test property. */
-    public static final String TEST_PROPERTY = "test";
-    /** Test receiver property. */
-    public static final String TEST_RECEIVER_PROPERTY = "receiver";
+    private static final String TEST_PROPERTY = "test";
+    private static final String TEST_RECEIVER_PROPERTY = "receiver";
 
     /**
      * Checks whether we receive an event on fire.
