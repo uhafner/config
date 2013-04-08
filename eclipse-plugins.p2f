@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='33'>
-    <iu id='com.android.ide.eclipse.ddms.feature.group' name='Android DDMS' version='21.0.1.v201212060256-543035'>
+  <ius size='32'>
+    <iu id='org.sonatype.m2e.buildhelper.feature.feature.group' name='m2e connector for build-helper-maven-plugin' version='0.15.0.201207090124'>
       <repositories size='1'>
-        <repository location='https://dl-ssl.google.com/android/eclipse/'/>
+        <repository location='http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/'/>
       </repositories>
     </iu>
-    <iu id='com.android.ide.eclipse.adt.feature.group' name='Android Development Tools' version='21.0.1.v201212060256-543035'>
-      <repositories size='1'>
-        <repository location='https://dl-ssl.google.com/android/eclipse/'/>
+    <iu id='org.sonatype.m2e.mavenarchiver.feature.feature.group' name='m2e connector for mavenarchiver pom properties' version='0.15.0.201207090125'>
+      <repositories size='2'>
+        <repository location='http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-mavenarchiver/0.15.0/N/0.15.0.201207090125/'/>
+        <repository location='http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.15.0/N/0.15.0.201207090125/'/>
       </repositories>
     </iu>
-    <iu id='com.android.ide.eclipse.hierarchyviewer.feature.group' name='Android Hierarchy Viewer' version='21.0.1.v201212060256-543035'>
+    <iu id='org.jboss.tools.m2e.jdt.feature.feature.group' name='M2E connector for the Eclipse JDT Compiler' version='1.0.1.201209200903'>
       <repositories size='1'>
-        <repository location='https://dl-ssl.google.com/android/eclipse/'/>
-      </repositories>
-    </iu>
-    <iu id='com.android.ide.eclipse.traceview.feature.group' name='Android Traceview' version='21.0.1.v201212060256-543035'>
-      <repositories size='1'>
-        <repository location='https://dl-ssl.google.com/android/eclipse/'/>
+        <repository location='http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/'/>
       </repositories>
     </iu>
     <iu id='com.atlassian.connector.eclipse.jira.feature.group' name='Atlassian JIRA Connector (Recommended)' version='3.0.7.v20121218'>
