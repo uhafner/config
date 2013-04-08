@@ -9,7 +9,7 @@ import org.junit.Test;
 /**
  * Tests the class {@link Ensure}.
  *
- * @author Ullrich Hafner
+ * @author Ulli Hafner
  */
 @SuppressWarnings("nls")
 public class EnsureTest {

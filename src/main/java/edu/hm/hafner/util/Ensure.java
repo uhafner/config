@@ -44,7 +44,7 @@ import com.google.common.collect.Lists;
  * </ul>
  *
  * @see <a href="http://en.wikipedia.org/wiki/Design_by_contract"> Design by Contract (Wikipedia)</a>
- * @author Ullrich Hafner
+ * @author Ulli Hafner
  */
 @SuppressWarnings("nls")
 public final class Ensure {

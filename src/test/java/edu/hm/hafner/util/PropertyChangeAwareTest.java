@@ -11,7 +11,7 @@ import org.junit.Test;
 /**
  * Tests the class {@link PropertyChangeAware}.
  *
- * @author Ullrich Hafner
+ * @author Ulli Hafner
  */
 public class PropertyChangeAwareTest {
     private static final String STRING_NEW_VALUE = "New";

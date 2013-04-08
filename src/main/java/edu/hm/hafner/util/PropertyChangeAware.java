@@ -11,7 +11,7 @@ import javax.annotation.CheckForNull;
  * properties. You can derive from this class and re-use the listener and
  * notification functionality.
  *
- * @author Ullrich Hafner
+ * @author Ulli Hafner
  */
 public class PropertyChangeAware implements IPropertyChangeAware {
     /** Delegate to do the actual work. */

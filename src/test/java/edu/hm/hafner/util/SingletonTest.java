@@ -11,7 +11,7 @@ import org.junit.Test;
 /**
  * Tests the class {@link Singleton}.
  *
- * @author Ullrich Hafner
+ * @author Ulli Hafner
  */
 @SuppressWarnings("nls")
 public class SingletonTest {
