@@ -46,7 +46,6 @@ import com.google.common.collect.Lists;
  * @see <a href="http://en.wikipedia.org/wiki/Design_by_contract"> Design by Contract (Wikipedia)</a>
  * @author Ulli Hafner
  */
-@SuppressWarnings("nls")
 public final class Ensure {
     /**
      * Returns a boolean condition.

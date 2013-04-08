@@ -24,12 +24,12 @@ public final class Singleton {
     public static <T> T get(final Iterable<T> collection) {
         Ensure.that(collection).isNotNull();
         Iterator<T> iterator = collection.iterator();
-        Ensure.that(iterator.hasNext()).isTrue("Collection is empty."); //$NON-NLS-1$
+        Ensure.that(iterator.hasNext()).isTrue("Collection is empty.");
 
         T element = iterator.next();
 
-        Ensure.that(iterator.hasNext()).isFalse("Collection contains more than one element."); //$NON-NLS-1$
-        Ensure.that(element).isNotNull("Element in collection must be not NULL."); //$NON-NLS-1$
+        Ensure.that(iterator.hasNext()).isFalse("Collection contains more than one element.");
+        Ensure.that(element).isNotNull("Element in collection must be not NULL.");
 
         return element;
     }

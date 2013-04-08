@@ -42,7 +42,7 @@ public final class AssertionFailedException extends RuntimeException {
     }
 
     private static void log(final Throwable exception) {
-        LOGGER.log(Level.WARNING, "Assertion failed.", exception); //$NON-NLS-1$
+        LOGGER.log(Level.WARNING, "Assertion failed.", exception);
     }
 
     private static final Logger LOGGER = Logger.getLogger(AssertionFailedException.class.getName());
