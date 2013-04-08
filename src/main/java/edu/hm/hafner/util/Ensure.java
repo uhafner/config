@@ -7,8 +7,6 @@ import javax.annotation.CheckForNull;
 
 import com.google.common.collect.Lists;
 
-import org.apache.commons.lang3.StringUtils;
-
 /**
  * Provides several helper methods to validate method arguments and class
  * invariants thus supporting the design by contract concept (DBC).
@@ -387,9 +385,21 @@ public final class Ensure {
         public void isNotBlank(final String explanation, final Object... args) {
             isNotNull();
 
-            if (StringUtils.isBlank(value)) {
+            if (isBlank()) {
                 throwException(explanation, args);
             }
+        }
+
+        private boolean isBlank() {
+            if (value.length() == 0) {
+                return true;
+            }
+            for (int i = 0; i < value.length(); i++) {
+                if (!Character.isWhitespace(value.charAt(i))) {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 
