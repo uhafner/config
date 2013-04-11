@@ -38,7 +38,7 @@
   <properties>
     <source.encoding>UTF-8</source.encoding>
     <project.build.sourceEncoding>${source.encoding}</project.build.sourceEncoding>
-    <java.version>1.7</java.version>
+    <java.version>1.6</java.version>
 
     <!-- Project Dependencies Configuration -->
     <findbugs.annotations>2.0.0</findbugs.annotations>
