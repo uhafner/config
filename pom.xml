@@ -47,13 +47,13 @@
     <mockito.version>1.9.5</mockito.version>
 
     <!-- Maven Plug-ins Configuration -->
-    <compiler.maven.plugin>3.0</compiler.maven.plugin>
+    <compiler.maven.plugin>3.1</compiler.maven.plugin>
     <jdt.plexus.compiler.version>2.2</jdt.plexus.compiler.version>
     <resources.maven.plugin>2.6</resources.maven.plugin>
-    <surefire.maven.plugin>2.14</surefire.maven.plugin>
-    <cobertura.maven.plugin>2.5.2</cobertura.maven.plugin>
-    <checkstyle.maven.plugin>2.9.1</checkstyle.maven.plugin>
-    <pmd.maven.plugin>2.7.1</pmd.maven.plugin>
+    <surefire.maven.plugin>2.16</surefire.maven.plugin>
+    <cobertura.maven.plugin>2.6</cobertura.maven.plugin>
+    <checkstyle.maven.plugin>2.10</checkstyle.maven.plugin>
+    <pmd.maven.plugin>3.0.1</pmd.maven.plugin>
     <findbugs.maven.plugin>2.5.2</findbugs.maven.plugin>
   </properties>
 
