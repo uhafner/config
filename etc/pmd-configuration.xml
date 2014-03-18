@@ -52,7 +52,6 @@
    <rule ref="rulesets/java/basic.xml/UselessOverridingMethod"/>
    <rule ref="rulesets/java/basic.xml/UselessOperationOnImmutable"/>
    <rule ref="rulesets/java/basic.xml/UnusedNullCheckInEquals"/>
-   <rule ref="rulesets/java/basic.xml/UselessParentheses"/>
    <rule ref="rulesets/java/comments.xml/CommentRequired"/>
    <rule ref="rulesets/java/comments.xml/CommentSize"/>
    <rule ref="rulesets/java/comments.xml/CommentContent"/>
@@ -62,7 +61,6 @@
    <rule ref="rulesets/java/unnecessary.xml/UselessOverridingMethod"/>
    <rule ref="rulesets/java/unnecessary.xml/UselessOperationOnImmutable"/>
    <rule ref="rulesets/java/unnecessary.xml/UnusedNullCheckInEquals"/>
-   <rule ref="rulesets/java/unnecessary.xml/UselessParentheses"/>
    <rule ref="rulesets/java/design.xml/SimplifyBooleanReturns"/>
    <rule ref="rulesets/java/design.xml/SimplifyBooleanExpressions"/>
    <rule ref="rulesets/java/design.xml/SwitchStmtsShouldHaveDefault"/>
