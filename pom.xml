@@ -52,7 +52,7 @@
         <resources.maven.plugin>2.6</resources.maven.plugin>
         <surefire.maven.plugin>2.16</surefire.maven.plugin>
         <cobertura.maven.plugin>2.6</cobertura.maven.plugin>
-        <checkstyle.maven.plugin>2.12</checkstyle.maven.plugin>
+        <checkstyle.maven.plugin>2.11</checkstyle.maven.plugin>
         <pmd.maven.plugin>3.1</pmd.maven.plugin>
         <findbugs.maven.plugin>2.5.3</findbugs.maven.plugin>
         <projectinfo.maven.plugin>2.7</projectinfo.maven.plugin>
