@@ -1,5 +1,5 @@
-Beispiel für ein Java Project, das Maven und verschiedene Statische Analyse Tools nutzt
-========================================================================================
+Java Project Template
+=====================
 
 Ein beispielhaftes Java Projekt zur Konfiguration der wichtigsten
 statischen Codeanalyse Tools. Das Projekt lässt sich sowohl in IntelliJ als auch Eclipse
