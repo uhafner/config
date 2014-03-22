@@ -52,8 +52,6 @@
    <rule ref="rulesets/java/basic.xml/UselessOverridingMethod"/>
    <rule ref="rulesets/java/basic.xml/UselessOperationOnImmutable"/>
    <rule ref="rulesets/java/basic.xml/UnusedNullCheckInEquals"/>
-   <rule ref="rulesets/java/comments.xml/CommentRequired"/>
-   <rule ref="rulesets/java/comments.xml/CommentContent"/>
    <rule ref="rulesets/java/unnecessary.xml/UnnecessaryConversionTemporary"/>
    <rule ref="rulesets/java/unnecessary.xml/UnnecessaryReturn"/>
    <rule ref="rulesets/java/unnecessary.xml/UnnecessaryFinalModifier"/>
@@ -75,13 +73,11 @@
    <rule ref="rulesets/java/design.xml/OptimizableToArrayCall"/>
    <rule ref="rulesets/java/design.xml/BadComparison"/>
    <rule ref="rulesets/java/design.xml/EqualsNull"/>
-<!-- PMD 5.1 required
    <rule ref="rulesets/java/design.xml/ConfusingTernary">
        <properties>
            <property name="ignoreElseIf" value="true"/>
        </properties>
    </rule>
--->
    <rule ref="rulesets/java/design.xml/InstantiationToGetClass"/>
    <rule ref="rulesets/java/design.xml/IdempotentOperations"/>
    <rule ref="rulesets/java/design.xml/SimpleDateFormatNeedsLocale"/>
@@ -196,14 +192,12 @@
    <rule ref="rulesets/java/junit.xml/JUnitStaticSuite"/>
    <rule ref="rulesets/java/junit.xml/JUnitSpelling"/>
    <rule ref="rulesets/java/junit.xml/JUnitAssertionsShouldIncludeMessage"/>
-   <rule ref="rulesets/java/junit.xml/JUnitTestsShouldIncludeAssert"/>
    <rule ref="rulesets/java/junit.xml/TestClassWithoutTestCases"/>
    <rule ref="rulesets/java/junit.xml/UnnecessaryBooleanAssertion"/>
    <rule ref="rulesets/java/junit.xml/UseAssertEqualsInsteadOfAssertTrue"/>
    <rule ref="rulesets/java/junit.xml/UseAssertSameInsteadOfAssertTrue"/>
    <rule ref="rulesets/java/junit.xml/UseAssertNullInsteadOfAssertTrue"/>
    <rule ref="rulesets/java/junit.xml/SimplifyBooleanAssertion"/>
-   <rule ref="rulesets/java/junit.xml/JUnitTestContainsTooManyAsserts"/>
    <rule ref="rulesets/java/junit.xml/UseAssertTrueInsteadOfAssertEquals"/>
    <rule ref="rulesets/java/strings.xml/StringInstantiation"/>
    <rule ref="rulesets/java/strings.xml/StringToString"/>
