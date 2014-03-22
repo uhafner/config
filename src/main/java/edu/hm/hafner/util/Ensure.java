@@ -164,9 +164,8 @@ public final class Ensure {
      *                always thrown
      */
     private static void throwException(final String message, final Object... args) {
-        RuntimeException exception = new AssertionFailedException(String.format(message, args));
 
-        throw exception;
+        throw new AssertionFailedException(String.format(message, args));
     }
 
     private Ensure() {
@@ -513,7 +512,7 @@ public final class Ensure {
         public void isInstanceOf(final Class<?> type, final Class<?>... additionalTypes) {
             isNotNull();
 
-            List<Class<? extends Object>> types = Lists.asList(type, additionalTypes);
+            List<Class<?>> types = Lists.asList(type, additionalTypes);
             for (Class<?> clazz : types) {
                 if (clazz.isInstance(value)) {
                     return;

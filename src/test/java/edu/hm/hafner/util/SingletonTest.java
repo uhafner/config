@@ -3,6 +3,7 @@ package edu.hm.hafner.util;
 import static org.junit.Assert.*;
 
 import java.util.HashSet;
+import java.util.Set;
 
 import com.google.common.collect.Sets;
 
@@ -48,7 +49,7 @@ public class SingletonTest {
      */
     @Test(expected = AssertionFailedException.class)
     public void testNullElementInSet() {
-        HashSet<Object> set = new HashSet<Object>();
+        Set<Object> set = new HashSet<Object>();
         set.add(null);
         Singleton.get(set);
     }
@@ -56,6 +57,7 @@ public class SingletonTest {
     /**
      * Verifies the handling of <code>null</code>.
      */
+    @SuppressWarnings("ConstantConditions")
     @Test(expected = AssertionFailedException.class)
     public void testNullSet() {
         Singleton.get(null);

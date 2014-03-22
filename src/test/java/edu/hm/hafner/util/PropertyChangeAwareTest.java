@@ -1,12 +1,12 @@
 package edu.hm.hafner.util;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
 import org.junit.Test;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 /**
  * Tests the class {@link PropertyChangeAware}.
