@@ -1,16 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='32'>
-    <iu id='org.sonatype.m2e.buildhelper.feature.feature.group' name='m2e connector for build-helper-maven-plugin' version='0.15.0.201207090124'>
+  <ius size='7'>
+    <iu id='net.sf.eclipsecs.feature.group' name='Eclipse Checkstyle Plug-in' version='5.7.0.201402131929'>
       <repositories size='1'>
-        <repository location='http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/'/>
+        <repository location='http://eclipse-cs.sourceforge.net/update/'/>
       </repositories>
     </iu>
-    <iu id='org.sonatype.m2e.mavenarchiver.feature.feature.group' name='m2e connector for mavenarchiver pom properties' version='0.15.0.201207090125'>
-      <repositories size='2'>
-        <repository location='http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-mavenarchiver/0.15.0/N/0.15.0.201207090125/'/>
-        <repository location='http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.15.0/N/0.15.0.201207090125/'/>
+    <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='2.0.2.20140224-0000'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/kepler'/>
+      </repositories>
+    </iu>
+    <iu id='ch.acanda.eclipse.pmd.feature.feature.group' name='eclipse-pmd' version='0.9.0.201403011228'>
+      <repositories size='1'>
+        <repository location='http://www.acanda.ch/eclipse-pmd/release/latest'/>
+      </repositories>
+    </iu>
+    <iu id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' name='FindBugs Feature' version='2.0.3.20131122-15027'>
+      <repositories size='1'>
+        <repository location='http://findbugs.cs.umd.edu/eclipse'/>
       </repositories>
     </iu>
     <iu id='org.jboss.tools.m2e.jdt.feature.feature.group' name='M2E connector for the Eclipse JDT Compiler' version='1.0.1.201209200903'>
@@ -18,181 +27,15 @@
         <repository location='http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/'/>
       </repositories>
     </iu>
-    <iu id='com.atlassian.connector.eclipse.jira.feature.group' name='Atlassian JIRA Connector (Recommended)' version='3.0.7.v20121218'>
+    <iu id='org.eclipse.m2e.wtp.feature.feature.group' name='m2e-wtp - Maven Integration for WTP' version='1.0.1.20130911-1545'>
       <repositories size='2'>
-        <repository location='http://update.atlassian.com/atlassian-eclipse-plugin/e3.8/'/>
-        <repository location='http://update.atlassian.com/atlassian-eclipse-plugin/e3.6/'/>
+        <repository location='http://download.eclipse.org/m2e-wtp/releases/'/>
+        <repository location='http://download.eclipse.org/releases/kepler'/>
       </repositories>
     </iu>
-    <iu id='DataHierarchy.feature.group' name='DataHierarchy' version='1.0.0.201005301956'>
+    <iu id='org.jboss.tools.maven.apt.feature.feature.group' name='Maven Integration for Eclipse JDT APT' version='1.0.1.201209200721'>
       <repositories size='1'>
-        <repository location='http://andrei.gmxhome.de/eclipse/'/>
-      </repositories>
-    </iu>
-    <iu id='com.mountainminds.eclemma.feature.feature.group' name='EclEmma Java Code Coverage' version='2.2.0.201210261515'>
-      <repositories size='1'>
-        <repository location='http://update.eclemma.org'/>
-      </repositories>
-    </iu>
-    <iu id='net.sf.eclipsecs.feature.group' name='Eclipse Checkstyle Plug-in' version='5.6.0.201209221626'>
-      <repositories size='1'>
-        <repository location='http://eclipse-cs.sourceforge.net/update'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.github.feature.feature.group' name='Eclipse EGit Mylyn GitHub Feature' version='2.1.0.201209190230-r'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-      </repositories>
-    </iu>
-    <iu id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' name='FindBugs Feature' version='2.0.2.20121210'>
-      <repositories size='2'>
-        <repository location='http://andrei.gmxhome.de/eclipse/'/>
-        <repository location='http://findbugs.cs.umd.edu/eclipse/'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.m2e.feature.feature.group' name='m2e - Maven Integration for Eclipse' version='1.2.0.20120903-1050'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mat.feature.feature.group' name='Memory Analyzer' version='1.2.0.201205300858'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mat.chart.feature.feature.group' name='Memory Analyzer (Charts) [optional]' version='1.2.0.201205300858'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-      </repositories>
-    </iu>
-    <iu id='org.moreunit.feature.group' name='MoreUnit For Java' version='3.0.0.02'>
-      <repositories size='1'>
-        <repository location='http://moreunit.sourceforge.net/update-site/'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.hudson.feature.group' name='Mylyn Builds Connector: Hudson/Jenkins' version='1.0.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.ide_feature.feature.group' name='Mylyn Context Connector: Eclipse IDE' version='3.8.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.java_feature.feature.group' name='Mylyn Context Connector: Java Development' version='3.8.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.team_feature.feature.group' name='Mylyn Context Connector: Team Support' version='3.8.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.gerrit.feature.feature.group' name='Mylyn Reviews Connector: Gerrit' version='1.0.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn_feature.feature.group' name='Mylyn Task List' version='3.8.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.context_feature.feature.group' name='Mylyn Task-Focused Interface' version='3.8.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.bugzilla_feature.feature.group' name='Mylyn Tasks Connector: Bugzilla' version='3.8.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.cvs.feature.group' name='Mylyn Versions Connector: CVS' version='1.0.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.git.feature.group' name='Mylyn Versions Connector: Git' version='1.0.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.mylyn.wikitext_feature.feature.group' name='Mylyn WikiText' version='1.7.2.v20120916-1200'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-        <repository location='http://download.eclipse.org/mylyn/releases/juno'/>
-      </repositories>
-    </iu>
-    <iu id='PathToolsFeature.feature.group' name='Path Tools Feature' version='1.0.67'>
-      <repositories size='1'>
-        <repository location='http://pathtools.googlecode.com/svn/trunk/PathToolsUpdateSite/'/>
-      </repositories>
-    </iu>
-    <iu id='net.sourceforge.pmd.eclipse.feature.group' name='PMD Plug-in' version='3.2.6.v200903300643'>
-      <repositories size='1'>
-        <repository location='http://pmd.sourceforge.net/eclipse'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.team.svn.revision.graph.feature.group' name='Subversive Revision Graph (Optional)' version='1.0.0.I20120601-1700'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-      </repositories>
-    </iu>
-    <iu id='org.polarion.eclipse.team.svn.connector.feature.group' name='Subversive SVN Connectors' version='3.0.0.I20121013-1700'>
-      <repositories size='1'>
-        <repository location='http://community.polarion.com/projects/subversive/download/eclipse/3.0/juno-site/'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.team.svn.mylyn.feature.group' name='Subversive SVN Integration for the Mylyn Project (Optional)' version='1.0.0.I20120601-1700'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.team.svn.resource.ignore.rules.jdt.feature.group' name='Subversive SVN JDT Ignore Extensions (Optional)' version='1.0.0.I20120601-1700'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.team.svn.feature.group' name='Subversive SVN Team Provider' version='1.0.0.I20120818-1700'>
-      <repositories size='2'>
-        <repository location='http://download.eclipse.org/releases/juno'/>
-        <repository location='http://marketplace.eclipse.org/repo/'/>
-      </repositories>
-    </iu>
-    <iu id='org.polarion.eclipse.team.svn.connector.svnkit17.feature.group' name='SVNKit 1.7.5.v1 Implementation (Optional)' version='3.0.0.I20121013-1700'>
-      <repositories size='1'>
-        <repository location='http://community.polarion.com/projects/subversive/download/eclipse/3.0/juno-site/'/>
+        <repository location='http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-apt/'/>
       </repositories>
     </iu>
   </ius>
