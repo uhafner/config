@@ -14,6 +14,7 @@ Folgende wichtigen Punkte sind enthalten:
   lässt sich mit dem EclEmma Plug-in auswerten.
 * In den Eclipse Einstellungen (.settings Verzeichnis) wurde eine sinnvolle Konfiguration
   für Compiler Warnungen, Code Formatter und Cleanup Wizards vorgegeben
+* Die benötigten Eclipse Plug-ins sind in der Konfiguration eclipse-plugins-p2f abgelegt.
 * IntelliJ: Das Projekt lässt sich in IntelliJ importieren und analysiert den Code mit
   Checkstyle, PMD und FindBugs über das QAPlug.
 * In den IntelliJ Einstellungen (.idea Verzeichnis) wurde eine sinnvolle Konfiguration
