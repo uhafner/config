@@ -105,8 +105,6 @@
    <rule ref="rulesets/java/design.xml/LogicInversion"/>
    <rule ref="rulesets/java/logging-java.xml/MoreThanOneLogger"/>
    <rule ref="rulesets/java/logging-java.xml/LoggerIsNotStaticFinal"/>
-   <rule ref="rulesets/java/logging-java.xml/SystemPrintln"/>
-   <rule ref="rulesets/java/logging-java.xml/AvoidPrintStackTrace"/>
    <rule ref="rulesets/java/optimizations.xml/MethodArgumentCouldBeFinal"/>
    <rule ref="rulesets/java/optimizations.xml/UseArrayListInsteadOfVector"/>
    <rule ref="rulesets/java/optimizations.xml/UseArraysAsList"/>
